@@ -1,0 +1,98 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "🐾 暖心领养小窝 🐾",
+        "navigationBarBackgroundColor": "#f8c8dc",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true,
+        "backgroundColor": "#e0f7fa"
+      }
+    },
+    {
+      "path": "pages/detail/detail",
+      "style": {
+        "navigationBarTitleText": "🥰 小可爱详情",
+        "navigationBarBackgroundColor": "#f8c8dc",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "🐾 登录/注册",
+        "navigationBarBackgroundColor": "#f8c8dc",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#e0f7fa"
+      }
+    },
+    {
+      "path": "pages/my/my",
+      "style": {
+        "navigationBarTitleText": "👤 我的",
+        "navigationBarBackgroundColor": "#f8c8dc",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#e0f7fa"
+      }
+    },
+    {
+      "path": "pages/collect/collect",
+      "style": {
+        "navigationBarTitleText": "❤️ AI助手",
+        "navigationBarBackgroundColor": "#f8c8dc",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#e0f7fa"
+      }
+    },
+    {
+      "path": "pages/register/register",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#f8c8dc",
+    "backgroundColor": "#e0f7fa"
+  },
+  "tabBar": {
+    "color": "#5d4037",
+    "selectedColor": "#e91e63",
+    "backgroundColor": "#fffacd",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "🐾 首页",
+        "iconPath": "https://img.icons8.com/fluency/28/5d4037/home.png",
+        "selectedIconPath": "https://img.icons8.com/fluency/28/e91e63/home.png"
+      },
+      {
+        "pagePath": "pages/collect/collect",
+        "text": "🤖 AI助手",
+        "iconPath": "https://img.icons8.com/fluency/28/5d4037/robot.png",
+        "selectedIconPath": "https://img.icons8.com/fluency/28/e91e63/robot.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "❤️ 我的",
+        "iconPath": "https://img.icons8.com/fluency/28/5d4037/user-male-circle.png",
+        "selectedIconPath": "https://img.icons8.com/fluency/28/e91e63/user-male-circle.png"
+      },
+      {
+        "pagePath": "pages/login/login",
+        "text": "⭐ 登录",
+        "iconPath": "https://img.icons8.com/color/28/000000/login-rounded.png",
+        "selectedIconPath": "https://img.icons8.com/color/28/ff0000/login-rounded.png"
+      },
+      {
+        "pagePath": "pages/register/register",
+        "text": "🐱 注册",
+        "iconPath": "https://img.icons8.com/fluency/28/5d4037/add-user-male.png",
+        "selectedIconPath": "https://img.icons8.com/fluency/28/e91e63/add-user-male.png"
+      }
+    ]
+  }
+}
